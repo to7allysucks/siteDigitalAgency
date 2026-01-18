@@ -1,18 +1,16 @@
 :root{
 
-  /**  Отступы  */
   --gap-xl: 20px;
   --gap-l: 15px;
 
   --padding-block: 20px;
   --padding-inline: 20px;
 
-  /**  Скругления углов  */
   --border-radius-default: 20px;
 
   --border-default: 1px solid var(--grey-15);
 
-  /**  Основные цвета */
+
   --accent-color: #9EFF00;
   --background-color: #191919;
 
@@ -25,7 +23,4 @@
   --grey-10: #1B1B1B;
   
   --light-color: #ffffff;
-
-  /**  Шрифты */
-  --font-family-title: "Open Sans";
 }

@@ -17,9 +17,13 @@
 @use 'components/companies-section';
 @use 'components/company-card';
 
+html {
+  font-size: 62.5%;
+}
+
 * {
-  font-size: 18px;
-  font-family: Barlow, sans-serif;
+  font-size: 1.8rem;
+  font-family: 'Barlow', sans-serif;
   font-weight: 400;
   color: var(--light-color);
 }
@@ -29,7 +33,7 @@ body {
 }
 
 main {
-  padding-inline: 162px;
+  padding-inline: 16.2rem;
 }
 
 h1, h2, h3,
@@ -38,6 +42,6 @@ h1, h2, h3,
 }
 
 h1, .h1 {
-  font-size: 68px;
-  margin-bottom: 40px;
+  font-size: 6.8rem;
+  margin-bottom: 4rem;
 }

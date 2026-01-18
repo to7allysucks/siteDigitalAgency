@@ -1,8 +1,12 @@
 .header {
     display: flex;
-    flex-direction: row;
     padding: 20px 162px;
     border-bottom: var(--border-default);
+    background-color: var(--background-color);
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
 
     &__body {
         width: 100%;
