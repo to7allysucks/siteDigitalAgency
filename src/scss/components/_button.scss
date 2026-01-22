@@ -17,6 +17,11 @@
         background-color: var(--accent-color);
         color: var(--grey-15);
         border: 0.2rem solid transparent;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: var(--green);
+        }
     }
 
     &--blur {
@@ -29,6 +34,16 @@
         &:hover {
             background-color: rgba(36, 36, 36, 0.05);
             backdrop-filter: blur(0.2rem);
+        }
+    }
+
+    &--grey {
+        background-color: var(--grey-15);
+        border: none;
+        transition: 0.3s;
+        
+        &:hover {
+            background-color: var(--grey-20);
         }
     }
 }

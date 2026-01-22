@@ -1,0 +1,18 @@
+<div class="card-learn-more">
+    @@include('./_icon.html', {
+        "img": "./assets/images/@@card__title",
+        "alt": "@@card__title",
+        })
+    <div class="card__content">
+        <div class="card__text">
+            <h3 class="card__title h3">@@card__title</h3>
+            <p class="card__description">@@card__description</p>
+        </div>
+        @@include('./_button.html', {
+            "title": "Learn More",
+            "link": "/",
+            "block__element": "card-learn-more__button",
+            "block--modifier": "button--grey",
+            })
+    </div>
+</div>

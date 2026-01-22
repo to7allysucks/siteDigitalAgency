@@ -16,6 +16,9 @@
 @use 'components/companies-section';
 @use 'components/company-card';
 @use 'components/banner';
+@use 'components/icon';
+@use 'components/card-learn-more';
+@use 'components/services-section';
 
 html {
   font-size: 62.5%;

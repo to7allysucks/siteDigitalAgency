@@ -1,0 +1,30 @@
+.card-learn-more {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: var(--border-default);
+    padding: 5rem;
+    gap: 4rem;
+
+    &__button {
+        width: 100%;
+        border-radius: 0.8rem;
+        padding: 1.8rem 1.6rem;
+        text-align: center;
+        align-self: flex-end;
+        justify-self: flex-end;
+    }
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 43.2rem;
+}
+
