@@ -1,0 +1,18 @@
+<div class="card client-card">
+    <h4 class="h4 client-card__title">@@title</h4>
+    <p class="client-card__description">@@description</p>
+    <div>
+        <div class="client-card-extra">
+            <img src="@@img.webp" alt="@@alt" class="client-card__person-image">
+            <p class="client-card-extra__title">@@name</p>
+            <p>@@extra-desc</p>
+            
+            @@include('./_button.html', {
+            "title": "Open Website",
+            "link": "/",
+            "block__element": "card-client-extra__button",
+            "block--modifier": "button--grey",
+            })
+        </div>
+    </div>
+</div>

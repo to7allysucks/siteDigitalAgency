@@ -19,6 +19,8 @@
 @use 'components/icon';
 @use 'components/card-learn-more';
 @use 'components/services-section';
+@use 'components/client-card';
+@use 'components/client-section';
 
 html {
   font-size: 62.5%;
@@ -29,6 +31,7 @@ html {
   font-family: 'Barlow', sans-serif;
   font-weight: 400;
   color: var(--light-color);
+  box-sizing: border-box;
 }
 
 body {
@@ -53,4 +56,20 @@ h1, .h1 {
 .h2, h2 {
   font-size: 4.8rem;
   margin-bottom: 1rem;
+}
+
+.h3, h3 {
+  font-size: 3rem;
+}
+
+.h4, h4 {
+  font-size: 2.6rem;
+}
+
+.h5, h5 {
+  font-size: 2.8rem;
+}
+
+.h6, h6 {
+  font-size: 2.2rem;
 }
