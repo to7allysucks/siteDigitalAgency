@@ -5,6 +5,9 @@
     border: var(--border-default);
     width: 100%;
     
+    & img {
+        border-radius: 0.8rem;
+    }
 
     &__title {
         color: var(--green);
