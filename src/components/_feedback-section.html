@@ -1,0 +1,31 @@
+<section class="feedback-section">
+    <div class="feedback-wrapper">
+        <div class="feedback-wrapper__input-name feedback-wrapper_slab">
+            <h6 class="feedback-wrapper__title h6">Full Name</h6>
+            <input type="text" id="name" name="name" placeholder="Type here">
+        </div>
+        <div class="feedback-wrapper__input-email feedback-wrapper_slab">
+            <h6 class="feedback-wrapper__title h6">Email</h6>
+            <input type="email" id="email" name="email" placeholder="Type here">
+        </div>
+        <div class="feedback-wrapper__input-check feedback-wrapper_slab">
+            <h6 class="feedback-wrapper__title h6">Why are you contacting us?</h6>
+            <input type="checkbox" id="web-design" name="web-design">Web Design
+            <input type="checkbox" id="collaboration" name="collaboration">Collaboration
+            <input type="checkbox" id="mobile-app" name="mobile-app">Mobile App Design
+            <input type="checkbox" id="others" name="others">Others
+        </div>
+        <div class="feedback-wrapper__*** feedback-wrapper_slab">
+            <!-- . . . -->
+        </div>
+        <div class="feedback-wrapper__input-message feedback-wrapper_slab">
+            <input type="text" id="message" name="message" placeholder="Type here">
+        </div>
+        @@include('./_button.html', {
+        "title": "Submit",
+        "link": "#",
+        "block__element": "feedback-section__button",
+        "block--modifier": "button--accent",
+        })
+    </div>
+</section>

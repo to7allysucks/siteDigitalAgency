@@ -34,10 +34,11 @@
     font-weight: 500;
     border-radius: 0.8rem;
     padding: 1.4rem 2.8rem;
-    transition: 0.4s;
+    transition: 0.33s;
 
     &:hover {
         background-color: var(--grey-12);
+        transform: scale(1.1);
     }
 }
 

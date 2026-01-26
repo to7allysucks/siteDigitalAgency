@@ -1,0 +1,29 @@
+.feedback-section {
+    border: var(--border-default);
+    padding-inline: 26.8rem;
+
+    &__button {
+        padding: 1.8rem 4.4rem;
+        border-radius: 0.8rem;
+    }
+}
+
+.feedback-wrapper {
+    display: grid;
+    row-gap: 4rem;
+    column-gap: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+    border-left: var(--border-default);
+    border-right: var(--border-default);
+    padding: 8rem;
+
+    &__input-check {
+        display: flex;
+        grid-column: span 2;
+    }
+
+    &__slab { 
+        border: var(--border-default);
+        background-color: rgba(36, 36, 36, 0.5);
+    }
+}

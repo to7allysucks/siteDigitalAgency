@@ -1,20 +1,19 @@
 .companies-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     align-items: center;
     position: relative;
     width: 100%;
     padding: 4rem 0;
     background-color: var(--grey-10);
     border: var(--border-default);
-    gap: 2rem;
+    column-gap: 2rem;
 
     &__count {
         text-align: center;
         background-color: var(--background-color);
         padding: 2rem 3.4rem;
-        max-width: 28.6rem;
+        max-width: 32rem;
         border: var(--border-default);
         border-radius: 10rem;
         position: absolute;

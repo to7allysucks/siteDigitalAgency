@@ -4,23 +4,51 @@
     padding: 10rem 8rem;
     border: var(--border-default);
     width: 100%;
+    justify-content: space-between;
     
+    &__button {
+        white-space: nowrap;
+        align-self: end;
+        padding: 1.8rem 2rem;
+        border-radius: 0.8rem;
+        width: 100%;    
+    }
+
     & img {
         border-radius: 0.8rem;
+        margin-right: 1.8rem;
     }
 
     &__title {
+        line-height: 1.5;
+        width: 92%;
         color: var(--green);
         margin-bottom: 2.4rem;
     }
 
     &__description {
+        width: 100%;
+        font-weight: 300;
+        color: var(--grey-90);
         margin-bottom: 4rem;
     }
 
 
     &-extra {
         display: flex;
+        border: var(--border-default);
+        border-radius: 0.8rem;
+        padding: 2rem;
+        
+        &__text {
+            width: 100%;
+            gap: 0.2rem
+        }
 
+        &__description {
+            white-space: nowrap;
+            color: var(--grey-90);
+            font-weight: 300;
+        }
     }
 }

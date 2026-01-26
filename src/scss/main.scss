@@ -22,6 +22,8 @@
 @use 'components/client-card';
 @use 'components/client-section';
 
+@use 'components/feedback-section';
+
 html {
   font-size: 62.5%;
 }
@@ -75,4 +77,18 @@ h1, .h1 {
 
 .h6, h6 {
   font-size: 2.2rem;
+}
+
+input {
+  background-color: var(--background-color);
+  border: none;
+
+  &::placeholder {
+    color: var(--grey-40);
+  }
+
+}
+
+img {
+  object-fit: cover;
 }
